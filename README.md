@@ -486,9 +486,12 @@ week-2-port-auditing/
 │   └── week2-udp.txt
 │
 └── screenshots/
+    ├── 01-tcp-port-audit.png
+    ├── 02-service-fingerprinting-192-168-1-1.png
+    ├── 03-service-fingerprinting-192-168-1-10.png
+    ├── 04-udp-port-audit.png
+    └── 05-risk-matrix.png
 ```
-
----
 
 # 14. Limitations
 

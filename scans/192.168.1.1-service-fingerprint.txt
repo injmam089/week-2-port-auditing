@@ -1,0 +1,43 @@
+# Nmap 7.991 scan initiated Sun Oct 11 13:20:48 2026 as: nmap -sV -Pn -p 53,80,5555 -oN scans\\192.168.1.1-service-fingerprint.txt 192.168.1.1
+Nmap scan report for 192.168.1.1
+Host is up (0.084s latency).
+
+PORT     STATE SERVICE VERSION
+53/tcp   open  domain  dnsmasq 2.52
+80/tcp   open  http    Boa HTTPd 0.94.13
+5555/tcp open  upnp
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port5555-TCP:V=7.991%I=7%D=10/11%Time=6ACB3FF6%P=i686-pc-windows-window
+SF:s%r(GetRequest,11D6,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20text/xm
+SF:l\r\nDate:\x20Sun,\x2011\x20Oct\x202026\x2013:21:12\x20GMT\r\nExpires:\
+SF:x20Thu,\x2026\x20Oct\x201995\x2000:00:00\x20GMT\r\nLast-Modified:\x20Su
+SF:n,\x2011\x20Oct\x202026\x2013:21:12\x20GMT\r\nPragma:\x20no-cache\r\nSe
+SF:rver:\x20WebServer/1\.0\x20UPnP/1\.0\r\n\r\n<\?xml\x20version=\"1\.0\"\
+SF:?>\n<root\x20xmlns=\"urn:schemas-upnp-org:device-1-0\">\n<specVersion>\
+SF:n<major>1</major>\n<minor>0</minor>\n</specVersion>\n<URLBase>/</URLBas
+SF:e>\n<device>\n<deviceType>urn:schemas-upnp-org:device:InternetGatewayDe
+SF:vice:1</deviceType>\n<friendlyName>Econet\x20IGD</friendlyName>\n<manuf
+SF:acturer>Econet</manufacturer>\n<manufacturerURL>http://www\.econet-inc\
+SF:.com</manufacturerURL>\n<modelDescription>Econet\x20IGD</modelDescripti
+SF:on>\n<modelName>Econet\x20IGD</modelName>\n<modelNumber>Econet</modelNu
+SF:mber>\n<modelURL>http://www\.econet-inc\.com/</modelURL>\n<serialNumber
+SF:>00000001</serialNumber>\n<UDN>uuid:11111111-1111-1111-1111-11111111111
+SF:1</UDN>\n<UPC>000000000001</UPC>\n<iconList>\n<icon>\n<mimetype>i")%r(H
+SF:TTPOptions,73,"HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nAllow:\x
+SF:20GET,\x20HEAD,\x20POST,\x20PUT\r\nContent-Length:\x200\r\nServer:\x20W
+SF:ebServer/1\.0\x20UPnP/1\.0\r\n\r\n")%r(RTSPRequest,73,"HTTP/1\.1\x20405
+SF:\x20Method\x20Not\x20Allowed\r\nAllow:\x20GET,\x20HEAD,\x20POST,\x20PUT
+SF:\r\nContent-Length:\x200\r\nServer:\x20WebServer/1\.0\x20UPnP/1\.0\r\n\
+SF:r\n")%r(FourOhFourRequest,10F,"HTTP/1\.1\x20404\x20Not\x20Found\r\nCont
+SF:ent-Type:\x20text/html\r\nServer:\x20WebServer/1\.0\x20UPnP/1\.0\r\n\r\
+SF:n<html>\n<head>\n<title>Object\x20Not\x20Found</title></head><body>\n<h
+SF:1>Object\x20Not\x20Found</h1>The\x20requested\x20URL\x20''\x20was\x20no
+SF:t\x20found\x20on\x20the\x20Server\.<p>Return\x20to\x20<A\x20HREF=\"\">l
+SF:ast\x20page</A><p>\n</body></html>")%r(SIPOptions,73,"HTTP/1\.1\x20405\
+SF:x20Method\x20Not\x20Allowed\r\nAllow:\x20GET,\x20HEAD,\x20POST,\x20PUT\
+SF:r\nContent-Length:\x200\r\nServer:\x20WebServer/1\.0\x20UPnP/1\.0\r\n\r
+SF:\n");
+MAC Address: 1C:18:4A:47:94:90 (ShenZhen RicherLink Technologies)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Oct 11 13:21:29 2026 -- 1 IP address (1 host up) scanned in 41.01 seconds

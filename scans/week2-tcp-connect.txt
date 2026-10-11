@@ -1,0 +1,49 @@
+# Nmap 7.991 scan initiated Sun Oct 11 13:02:02 2026 as: nmap -sT -Pn -T3 -oN scans\\week2-tcp-connect.txt 192.168.1.1 192.168.1.2 192.168.1.3 192.168.1.7 192.168.1.10 192.168.1.15
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 192.168.1.1
+Host is up (0.011s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+5555/tcp open  personal-agent
+
+Nmap scan report for 192.168.1.2
+Host is up (0.056s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT  STATE    SERVICE
+7/tcp filtered echo
+
+Nmap scan report for 192.168.1.3
+Host is up (2.2s latency).
+All 1000 scanned ports on 192.168.1.3 are in ignored states.
+Not shown: 989 filtered tcp ports (no-response), 11 filtered tcp ports (host-unreach)
+
+Nmap scan report for 192.168.1.7
+Host is up (2.7s latency).
+All 1000 scanned ports on 192.168.1.7 are in ignored states.
+Not shown: 765 filtered tcp ports (no-response), 235 filtered tcp ports (host-unreach)
+
+Nmap scan report for 192.168.1.10
+Host is up (0.000024s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+
+Nmap scan report for 192.168.1.15
+Host is up (2.7s latency).
+All 1000 scanned ports on 192.168.1.15 are in ignored states.
+Not shown: 711 filtered tcp ports (no-response), 289 filtered tcp ports (host-unreach)
+
+# Nmap done at Sun Oct 11 13:19:30 2026 -- 6 IP addresses (6 hosts up) scanned in 1048.24 seconds

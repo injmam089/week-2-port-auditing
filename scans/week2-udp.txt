@@ -1,0 +1,79 @@
+# Nmap 7.991 scan initiated Sun Oct 11 13:23:56 2026 as: nmap -sU -Pn --top-ports 20 -oN scans\\week2-udp.txt 192.168.1.1 192.168.1.2 192.168.1.3 192.168.1.7 192.168.1.10 192.168.1.15
+Nmap scan report for 192.168.1.1
+Host is up (0.0079s latency).
+
+PORT      STATE         SERVICE
+53/udp    open          domain
+67/udp    open|filtered dhcps
+68/udp    closed        dhcpc
+69/udp    closed        tftp
+123/udp   closed        ntp
+135/udp   closed        msrpc
+137/udp   closed        netbios-ns
+138/udp   closed        netbios-dgm
+139/udp   closed        netbios-ssn
+161/udp   closed        snmp
+162/udp   closed        snmptrap
+445/udp   closed        microsoft-ds
+500/udp   closed        isakmp
+514/udp   closed        syslog
+520/udp   closed        route
+631/udp   closed        ipp
+1434/udp  closed        ms-sql-m
+1900/udp  open|filtered upnp
+4500/udp  closed        nat-t-ike
+49152/udp closed        unknown
+MAC Address: 1C:18:4A:47:94:90 (ShenZhen RicherLink Technologies)
+
+Nmap scan report for 192.168.1.3
+Host is up (0.0074s latency).
+
+PORT      STATE         SERVICE
+53/udp    open|filtered domain
+67/udp    open|filtered dhcps
+68/udp    closed        dhcpc
+69/udp    open|filtered tftp
+123/udp   open|filtered ntp
+135/udp   open|filtered msrpc
+137/udp   open|filtered netbios-ns
+138/udp   open|filtered netbios-dgm
+139/udp   open|filtered netbios-ssn
+161/udp   open|filtered snmp
+162/udp   open|filtered snmptrap
+445/udp   open|filtered microsoft-ds
+500/udp   open|filtered isakmp
+514/udp   open|filtered syslog
+520/udp   open|filtered route
+631/udp   open|filtered ipp
+1434/udp  open|filtered ms-sql-m
+1900/udp  open|filtered upnp
+4500/udp  open|filtered nat-t-ike
+49152/udp open|filtered unknown
+MAC Address: DA:A5:62:5D:F3:E3 (Unknown)
+
+Nmap scan report for 192.168.1.10
+Host is up (0.00047s latency).
+
+PORT      STATE         SERVICE
+53/udp    closed        domain
+67/udp    closed        dhcps
+68/udp    closed        dhcpc
+69/udp    closed        tftp
+123/udp   closed        ntp
+135/udp   closed        msrpc
+137/udp   open|filtered netbios-ns
+138/udp   open|filtered netbios-dgm
+139/udp   closed        netbios-ssn
+161/udp   closed        snmp
+162/udp   closed        snmptrap
+445/udp   closed        microsoft-ds
+500/udp   open|filtered isakmp
+514/udp   closed        syslog
+520/udp   closed        route
+631/udp   closed        ipp
+1434/udp  closed        ms-sql-m
+1900/udp  open|filtered upnp
+4500/udp  open|filtered nat-t-ike
+49152/udp closed        unknown
+
+# Nmap done at Sun Oct 11 13:24:17 2026 -- 6 IP addresses (3 hosts up) scanned in 21.78 seconds

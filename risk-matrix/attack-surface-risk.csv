@@ -1,0 +1,13 @@
+Host,Port,Protocol,Service,Exposure,Risk,Recommendation
+192.168.1.1,53,TCP,DNS,Open,Medium,Restrict DNS access to trusted network
+192.168.1.1,80,TCP,HTTP,Open,Medium,Disable unused web service or harden HTTP
+192.168.1.1,5555,TCP,UPnP-Personal-Agent,Open,High,Restrict or disable unnecessary service
+192.168.1.10,135,TCP,MSRPC,Open,Medium,Restrict RPC access using firewall
+192.168.1.10,139,TCP,NetBIOS,Open,Medium,Disable NetBIOS if not required
+192.168.1.10,445,TCP,SMB,Open,High,Restrict SMB to trusted hosts
+192.168.1.10,3306,TCP,MySQL,Open,High,Restrict database access and require authentication
+192.168.1.10,137,UDP,NetBIOS-NS,Open-or-Filtered,Medium,Restrict NetBIOS traffic
+192.168.1.10,138,UDP,NetBIOS-DGM,Open-or-Filtered,Medium,Restrict NetBIOS traffic
+192.168.1.10,500,UDP,ISAKMP,Open-or-Filtered,Medium,Verify whether IPsec service is required
+192.168.1.10,1900,UDP,UPnP,Open-or-Filtered,Medium,Disable UPnP if unnecessary
+192.168.1.10,4500,UDP,NAT-T,Open-or-Filtered,Medium,Verify IPsec or NAT-T requirement

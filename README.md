@@ -432,15 +432,44 @@ All Week 2 evidence files are stored within the project repository.
 
 `risk-matrix/attack-surface-risk.csv`
 
-## Screenshots
+# 12. Screenshots
 
-Relevant assessment screenshots can be stored in:
+The following screenshots provide visual evidence of the Week 2
+TCP/UDP port auditing, service fingerprinting, and attack-surface
+assessment activities.
 
-`screenshots/`
+## 12.1 — TCP Port Audit
+
+![TCP Port Audit](screenshots/01-tcp-port-audit.png)
 
 ---
 
-# 12. Project Structure
+## 12.2 — Service Fingerprinting: 192.168.1.1
+
+![Service Fingerprinting 192.168.1.1](screenshots/02-service-fingerprinting-192-168-1-1.png)
+
+---
+
+## 12.3 — Service Fingerprinting: 192.168.1.10
+
+![Service Fingerprinting 192.168.1.10](screenshots/03-service-fingerprinting-192-168-1-10.png)
+
+---
+
+## 12.4 — UDP Port Audit
+
+![UDP Port Audit](screenshots/04-udp-port-audit.png)
+
+---
+
+## 12.5 — Attack Surface Risk Matrix
+
+![Attack Surface Risk Matrix](screenshots/05-risk-matrix.png)
+
+---
+---
+
+# 13. Project Structure
 
 ```text
 week-2-port-auditing/
@@ -461,7 +490,7 @@ week-2-port-auditing/
 
 ---
 
-# 13. Limitations
+# 14. Limitations
 
 This assessment was intentionally limited to network reconnaissance
 and attack-surface analysis.
@@ -484,7 +513,7 @@ as a confirmed vulnerability.
 
 ---
 
-# 14. Ethical & Safety Statement
+# 15. Ethical & Safety Statement
 
 This activity was conducted for cybersecurity learning and
 internship practice on an authorized local network.
@@ -500,7 +529,7 @@ security-awareness purposes.
 
 ---
 
-# 15. Skills Demonstrated
+# 16. Skills Demonstrated
 
 Through this exercise, I practiced:
 
@@ -518,7 +547,7 @@ Through this exercise, I practiced:
 
 ---
 
-# 16. Conclusion
+# 17. Conclusion
 
 The Week 2 assessment successfully performed TCP and UDP port
 auditing, service fingerprinting, and attack-surface analysis
